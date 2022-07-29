@@ -43,7 +43,7 @@ public class EnlacePPPMi {
                     + "Cedula, Ciudad, Marca, Modelo, Numero, MinutosN, CostoXMinN,"
                     + "MinutosI, CostoXMinI, PagoMensual)"
                     + "values ('%s', '%s', '%s', '%s', '%s', '%s', '%d',"
-                    + "'%.2f', '%d', '%.2f', '%.2f')", 
+                    + "%s, '%d', %s, %s)", 
                     pppm.obtenerNombre(), pppm.obtenerCedula(), 
                     pppm.obtenerCiudad(), pppm.obtenerMarca(), 
                     pppm.obtenerModelo(), pppm.obtenerNumero(), 
